@@ -27,5 +27,7 @@ public class HourlyEmployee {
 		return "HourlyEmployee [hoursWorked=" + hoursWorked + ", HOURLY_WAGE=" + HOURLY_WAGE + "]";
 	}
 	
-	
+	public double calculateMonthlyEarnings(){
+		return hoursWorked*HOURLY_WAGE;
+	}
 }
