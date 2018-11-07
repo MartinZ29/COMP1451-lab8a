@@ -36,5 +36,6 @@ public abstract class Employee {
 		return "Employee [firstName=" + firstName + ", lastName=" + lastName + "]";
 	}
 	
+	public abstract double calculateMonthlyEarnings();
 	
 }
