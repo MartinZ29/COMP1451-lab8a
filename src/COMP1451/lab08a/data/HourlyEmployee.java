@@ -9,8 +9,8 @@ public class HourlyEmployee extends Employee{
 		super(); 
 	}
 	
-	public HourlyEmployee(int hoursWorked) {
-		super();
+	public HourlyEmployee(String firstName, String lastName, int hoursWorked) {
+		super(firstName, lastName);
 		this.hoursWorked = hoursWorked;
 	}
 	
