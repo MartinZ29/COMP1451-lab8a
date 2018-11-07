@@ -1,6 +1,6 @@
 package COMP1451.lab08a.data;
 
-public class CommissionEmployee {
+public class CommissionEmployee extends Employee{
 
 	private double commissionRate;
 	private double monthlySalesTotal;
@@ -38,6 +38,8 @@ public class CommissionEmployee {
 				+ "]";
 	};
 	
-	
+	public double calculateMonthlyEarnings(){
+		return monthlySalesTotal*commissionRate;
+	}
 	
 }
