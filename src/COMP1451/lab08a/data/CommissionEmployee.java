@@ -10,8 +10,8 @@ public class CommissionEmployee extends Employee{
 		super();
 	}
 
-	public CommissionEmployee(double commissionRate, double monthlySalesTotal) {
-		super();
+	public CommissionEmployee(String firstName, String lastName, double commissionRate, double monthlySalesTotal) {
+		super(firstName, lastName);
 		this.commissionRate = commissionRate;
 		this.monthlySalesTotal = monthlySalesTotal;
 	}
