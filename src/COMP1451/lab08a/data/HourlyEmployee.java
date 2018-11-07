@@ -1,6 +1,6 @@
 package COMP1451.lab08a.data;
 
-public class HourlyEmployee {
+public class HourlyEmployee extends Employee{
 
 	private int hoursWorked;
 	public final int HOURLY_WAGE = 50;
